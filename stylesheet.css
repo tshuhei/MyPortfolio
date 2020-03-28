@@ -1,0 +1,23 @@
+header{
+    background-color: #fae8d9;
+    padding-top:1em;
+    padding-bottom:1em;
+    color:grey;
+}
+
+.header-items{
+    text-align: center;
+}
+
+.header-item{
+    display: inline-block;
+    margin-right:1em;
+    cursor:pointer;
+}
+
+.cover{
+    background:url(./image/cover.png);
+    background-size:cover;
+    padding: 220px 0;
+    color: grey;
+}
