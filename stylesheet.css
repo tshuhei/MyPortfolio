@@ -138,3 +138,7 @@ footer{
 .bottom{
     padding-bottom: 150px;
 }
+
+.contact-item{
+    cursor: pointer;
+}
