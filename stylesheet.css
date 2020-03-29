@@ -94,7 +94,7 @@ img{
 
 .works-row{
     margin: 100px 0px 0px 0px;
-    padding-bottom: 150px;
+    /*padding-bottom: 150px;*/
 }
 
 .works-title{
@@ -133,4 +133,8 @@ footer{
     background-color: #fcdfc8;
     padding-bottom: 40px;
     color: grey;
+}
+
+.bottom{
+    padding-bottom: 150px;
 }
