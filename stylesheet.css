@@ -68,3 +68,12 @@ header{
 img{
     max-width:100%;
 }
+
+.experience{
+    margin:30px 30px;
+    padding: 10px 0px;
+    font-size:20px;
+    /*background-color: #fff9f5;*/
+    background-color: #fff5ec;
+    border-radius: 20px;
+}
