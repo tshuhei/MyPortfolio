@@ -58,6 +58,7 @@ header{
     background-color: #fae8d9;
     margin: 0px 30px;
     margin-bottom: 100px;
+    border-radius: 20px;
 }
 
 .language{
@@ -76,4 +77,42 @@ img{
     /*background-color: #fff9f5;*/
     background-color: #fff5ec;
     border-radius: 20px;
+}
+
+.works{
+    background-color: #fae8d9;
+    color:grey;
+    padding-top:150px;
+}
+
+.works-item{
+    background-color: #fff5ec;
+    margin: 0px 80px;
+    padding: 0px;
+    border-radius: 20px;
+}
+
+.works-row{
+    margin: 100px 0px;
+}
+
+.works-title{
+    background-color: #fae8d9;
+}
+
+.works-item-title{
+    background-color: #fcdfc8;
+    padding: 15px 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 0px 0px 40px 0px;
+}
+
+.work-text{
+    margin: 20px 100px;
+}
+
+.link{
+    display: block;
+    padding-bottom: 20px;
 }
