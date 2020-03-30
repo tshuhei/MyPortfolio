@@ -69,17 +69,35 @@ $(function(){
     });
 
     $(".header-item").hover(function(){
-        $(this).animate({
-            "font-size":"23px",
-            "font-weight":"bold",
-            "backgroundColor":"#fcdfc8",
-        },300);
+        //getWindowSize();
+        if(window.innerWidth>450){
+            $(this).animate({
+                "font-size":"23px",
+                "font-weight":"bold",
+                "backgroundColor":"#fcdfc8",
+            },300);
+        }else{
+            $(this).animate({
+                "font-size":"13px",
+                "font-weight":"bold",
+                "backgroundColor":"#fcdfc8",
+            },300);
+        }
+
     },
     function(){
-        $(this).animate({
-            "font-size":"16px",
-            "backgroundColor":"#fae8d9",
-        },300);
+        //getWindowSize();
+        if(window.innerWidth>450){
+            $(this).animate({
+                "font-size":"16px",
+                "backgroundColor":"#fae8d9",
+            },300);   
+        }else{
+            $(this).animate({
+                "font-size":"10px",
+                "backgroundColor":"#fae8d9",
+            },300);   
+        }
     });
 
     $(".works-item").hover(function(){

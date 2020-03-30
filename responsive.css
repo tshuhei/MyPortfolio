@@ -6,3 +6,15 @@
         margin:0px;
     }
 }
+
+@media(max-width:450px){
+
+    .header-item{
+        font-size: 10px;
+    }
+
+    .works-item{
+        margin-left:20px;
+        margin-right:20px;
+    }
+}
