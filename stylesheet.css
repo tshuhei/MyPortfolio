@@ -1,5 +1,10 @@
 html{
     background-color:#fae8d9;
+    overflow: auto;
+}
+
+body{
+    overflow: hidden;
 }
 
 header{
