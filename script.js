@@ -14,23 +14,38 @@ $.fn.animate2 = function (properties, duration, ease) {
 
 $(function(){
     $(".header-top").click(function(){
-        console.log("top clicked");
+        var position = $("#top").offset().top;
+        $("html,body").animate({
+            "scrollTop":position
+        },500);
     });
 
     $(".header-profile").click(function(){
-        console.log("profile clicked");
+        var position = $("#profile").offset().top;
+        $("html,body").animate({
+            "scrollTop":position
+        },500);
     });
 
     $(".header-skills").click(function(){
-        console.log("skills clicked");
+        var position = $("#skills").offset().top;
+        $("html,body").animate({
+            "scrollTop":position
+        },500);
     })
 
     $(".header-works").click(function(){
-        console.log("works clicked");
+        var position = $("#works").offset().top;
+        $("html,body").animate({
+            "scrollTop":position
+        },500);
     });
 
     $(".header-contact").click(function(){
-        console.log("contact clicked");
+        var position = $("#contact").offset().top;
+        $("html,body").animate({
+            "scrollTop":position
+        },500);
     });
 
     $(".machomate").click(function(){
@@ -57,31 +72,25 @@ $(function(){
         $(this).animate({
             "font-size":"23px",
             "font-weight":"bold",
-            "backgroundColor":"#fcdfc8"
+            "backgroundColor":"#fcdfc8",
         },300);
-        //console.log("hover in");
-        //$(this).css("background-color","#F6D8C0");
     },
     function(){
         $(this).animate({
             "font-size":"16px",
-            "backgroundColor":"#fae8d9"
+            "backgroundColor":"#fae8d9",
         },300);
-        //console.log("hover off");
-        //$(this).css("background-color","#fae8d9")
     });
 
     $(".works-item").hover(function(){
         $(this).animate2({
             "transform":"scale(1.1,1.1)",
         },300);
-        //console.log("hover in");
     },
     function(){
         $(this).animate2({
             "transform":"scale(1.0,1.0)"
         },300);
-        //console.log("hover off");
     });
 
     $(".contact-image").hover(function(){
