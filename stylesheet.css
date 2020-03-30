@@ -4,8 +4,6 @@ html{
 
 header{
     background-color: #fae8d9;
-    padding-top:1em;
-    padding-bottom:1em;
     color:grey;
     position: fixed;
     z-index: 10;
@@ -18,8 +16,9 @@ header{
 
 .header-item{
     display: inline-block;
-    margin-right:1em;
     cursor:pointer;
+    padding: 20px 20px;
+    border-radius: 7px;
 }
 
 .cover{
@@ -42,6 +41,10 @@ header{
 
 .profile-text{
     font-size:1.5em;
+}
+
+.profile-image{
+    border-radius: 40px;
 }
 
 .skills{
@@ -90,6 +93,7 @@ img{
     margin: 0px 80px;
     padding: 0px;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .works-row{
