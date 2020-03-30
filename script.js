@@ -34,18 +34,22 @@ $(function(){
     });
 
     $(".machomate").click(function(){
+        window.location.href = "https://github.com/tshuhei/Machomate";
         console.log("machomate clicked");
     });
 
     $(".emostack").click(function(){
+        window.location.href = "https://github.com/tshuhei/EmoStack";
         console.log("emostack clicked");
     });
 
     $(".portfolio").click(function(){
+        window.location.href = "https://github.com/tshuhei/MyPortfolio";
         console.log("portfolio clicked");
     });
 
     $(".suicide").click(function(){
+        window.location.href = "https://github.com/tshuhei/Suicide-Analysis-System";
         console.log("suicide clicked");
     });
 
